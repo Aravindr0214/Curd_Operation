@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CRUD.master.cs" Inherits="CRUD_Operation.CRUD" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+   <%-- <script src="Script/Internal/PageScript/Ajax.js" type="text/javascript"></script>
+--%>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <script src="Script/External/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
